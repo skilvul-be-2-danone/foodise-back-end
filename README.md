@@ -59,7 +59,34 @@
     "your token": "string"
 }
 ```
-### **Show Profile**
+### **Get User Profiles**
+**Request** :
+- Method : GET
+- Endpoint : `/api/users`
+- Header : 
+    - Accept : application/json
+**Response** :
+```json
+{
+  "data user": [
+    {
+      "_id": "string unique",
+      "name": "string",
+      "email": "string",
+      "password": "string",
+      "role": "string"
+    },
+    {
+      "_id": "string",
+      "name": "string",
+      "email": "string",
+      "password": "string",
+      "role": "string"
+    }, 
+    ]
+}
+```
+### **Get User Profile By Id**
 **Request** :
 - Method : GET
 - Endpoint : `/api/users/{:id}`
@@ -68,14 +95,16 @@
 **Response** :
 ```json
 {
-    "id": "string, unique",
+  "user data": {
+    "_id": "string unique",
     "name": "string",
     "email": "string",
     "password": "string",
     "role": "string"
+  }
 }
 ```
-### **Update Profile**
+### **Update User Profile By Id**
 **Request** :
 - Method : PUT
 - Endpoint : `/api/users/{:id}`
@@ -85,27 +114,30 @@
 - Body :
     ```json
     {
-        "id": "string, unique",
         "name": "string",
         "email": "string",
         "password": "string",
+        "role":"string"
     }
     ```
 **Response** :
 ```json
 {
-    "message" : "your profile updated successfully, let's login !",
-    "<role>": [
-        {
-            "id": "string, unique",
-            "name": "string",
-            "email": "string",
-            "password": "string",
-        }
-    ]
+  "message": "user data has been update successfully"
 }
 ```
-
+### **Delete User Profile By Id**
+**Request** :
+- Method : DELETE
+- Endpoint : `/api/users/{:id}`
+- Header : 
+    - Accept : application/json
+**Response** :
+```json
+{
+  "message": "user data has been deleted successfully !"
+}
+```
 ### **Get Food Data**
 **Request** :
 - Method : GET
