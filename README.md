@@ -4,12 +4,17 @@
 ![foodise-ERD](./ERD%20files/foodise-ERD.png)
 
 &nbsp;
+# **Link Web Service**
+Deployment Heroku (dapat diakses sampai 28 November 2022)
+
+
+&nbsp;
 
 # **API Specification**
 ### **Register**
 **Request** :
 - Method : POST
-- Endpoint : `/api/signup`
+- Endpoint : `<link-web-service>/api/signup`
 - Header : 
     - Content-Type : application/json
     - Accept : application/json
@@ -39,7 +44,7 @@
 ### **Login**
 **Request** :
 - Method : POST
-- Endpoint : `/api/signin`
+- Endpoint : `<link-web-service>/api/signin`
 - Header : 
     - Content-Type : application/json
     - Accept : application/json
@@ -89,7 +94,7 @@
 ### **Get User Profile By Id**
 **Request** :
 - Method : GET
-- Endpoint : `/api/users/{:id}`
+- Endpoint : `<link-web-service>/api/users/{:id}`
 - Header : 
     - Accept : application/json
 **Response** :
@@ -107,7 +112,7 @@
 ### **Update User Profile By Id**
 **Request** :
 - Method : PUT
-- Endpoint : `/api/users/{:id}`
+- Endpoint : `<link-web-service>/api/users/{:id}`
 - Header : 
     - Content-Type : application/json
     - Accept : application/json
@@ -129,7 +134,7 @@
 ### **Delete User Profile By Id**
 **Request** :
 - Method : DELETE
-- Endpoint : `/api/users/{:id}`
+- Endpoint : `<link-web-service>/api/users/{:id}`
 - Header : 
     - Accept : application/json
 **Response** :
@@ -141,7 +146,7 @@
 ### **Get Food Data**
 **Request** :
 - Method : GET
-- Endpoint : `/api/foods`
+- Endpoint : `<link-web-service>/api/foods`
 - Header : 
     - Accept : application/json
 **Response** :
@@ -168,7 +173,7 @@
 ### **Get Food Data by Id**
 **Request** :
 - Method : GET
-- Endpoint : `/api/foods/{:id}`
+- Endpoint : `<link-web-service>/api/foods/{:id}`
 - Header : 
     - Accept : application/json
 - Query :
@@ -192,7 +197,7 @@
 ### **Add Favorite Food Data**
 **Request** :
 - Method : POST
-- Endpoint : `/api/favorite`
+- Endpoint : `<link-web-service>/api/favorite`
 - Header : 
     - Content-Type : application/json
     - Accept : application/json
@@ -219,7 +224,7 @@
 ### **Get Favorite Food Data**
 **Request** :
 - Method : GET
-- Endpoint : `/api/favorite`
+- Endpoint : `<link-web-service>/api/favorite`
 - Header : 
     - Accept : application/json
 **Response** :
@@ -257,7 +262,7 @@
 ### **Get Favorite Food Data By User Id**
 **Request** :
 - Method : GET
-- Endpoint : `/api/favorite/{:user_id}`
+- Endpoint : `<link-web-service>/api/favorite/{:user_id}`
 - Header : 
     - Accept : application/json
 **Response** :
@@ -283,7 +288,7 @@
 ### **Delete Favorite Food Data**
 **Request** :
 - Method : DELETE
-- Endpoint : `/api/favorite/{:id}`
+- Endpoint : `<link-web-service>/api/favorite/{:id}`
 - Header : 
     - Accept : application/json
 **Response** :
@@ -299,7 +304,7 @@
 ### **Create Food Data**
 **Request** :
 - Method : POST
-- Endpoint : `/api/foods`
+- Endpoint : `<link-web-service>/api/foods`
 - Header : 
     - Content-Type : application/json
     - Accept : application/json
@@ -331,7 +336,7 @@
 ### **Update Food Data**
 **Request** :
 - Method : PUT
-- Endpoint : `/api/foods/{:id}`
+- Endpoint : `<link-web-service>/api/foods/{:id}`
 - Header : 
     - Content-Type : application/json
     - Accept : application/json
@@ -354,7 +359,7 @@
 ### **Delete Food Data**
 **Request** :
 - Method : DELETE
-- Endpoint : `/api/foods/{:id}`
+- Endpoint : `<link-web-service>/api/foods/{:id}`
 - Header : 
     - Accept : application/json
 **Response** :
