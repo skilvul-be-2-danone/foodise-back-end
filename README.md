@@ -368,3 +368,38 @@
 
 # **Documentation API**
 
+### **Register**
+![register](./API%20Docs%20-%20IMG/register.png)
+### **Login**
+![login](./API%20Docs%20-%20IMG/login.png)
+### **Get User Profiles**
+![users](./API%20Docs%20-%20IMG/users.png)
+### **Get User Profile By Id**
+![userbyid](./API%20Docs%20-%20IMG/userbyid.png)
+### **Update User Profile By Id**
+![updateuser](./API%20Docs%20-%20IMG/updateuser.png)
+### **Delete User Profile By Id**
+![deleteuser](./API%20Docs%20-%20IMG/deleteuser.png)
+### **Get Food Data**
+![foods](./API%20Docs%20-%20IMG/foods.png)
+### **Get Food Data by Id**
+![foodbyid](./API%20Docs%20-%20IMG/foodbyid.png)
+## **Member**
+
+### **Add Favorite Food Data**
+![addfav](./API%20Docs%20-%20IMG/addfav.png)
+### **Get Favorite Food Data**
+![favs](./API%20Docs%20-%20IMG/favs.png)
+### **Get Favorite Food Data By User Id**
+![favbyuser](./API%20Docs%20-%20IMG/favbyuser.png)
+### **Delete Favorite Food Data By Id**
+![deletefav](./API%20Docs%20-%20IMG/deletefav.png)
+## **Admin**
+
+### **Create Food Data**
+![createfood](./API%20Docs%20-%20IMG/createfood.png)
+### **Update Food Data**
+![updatefood](./API%20Docs%20-%20IMG/updatefood.png)
+### **Delete Food Data**
+![deletefood](./API%20Docs%20-%20IMG/deletefood.png)
+
