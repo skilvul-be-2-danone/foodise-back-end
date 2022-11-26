@@ -6,7 +6,7 @@
 &nbsp;
 # **Link Web Service**
 Deployment Heroku (dapat diakses sampai 28 November 2022)
-
+https://foodise-gpa-be2.herokuapp.com/
 
 &nbsp;
 
